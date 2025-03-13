@@ -11,7 +11,7 @@ import java.util.Set;
 public class Bank {
     private Set<Account> accounts;
     private boolean bankAvailable;
-    String filePath = "src/main/resources/accountsData.csv";
+    private String filePath = "src/main/resources/accountsData.csv";
 
     public Bank() {
         this.accounts = loadFromFile(filePath);
